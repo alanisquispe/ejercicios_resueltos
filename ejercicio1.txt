@@ -1,0 +1,31 @@
+public class ejercicio1{
+
+    public static void main(String[] args){
+    
+        System.out.println("numeros del 1 al 100: (con while):"); // ejercicio 1-a
+        int i=1;
+         while(i<=100){
+
+            System.out.println(i);
+            i++; 
+        }
+    
+        System.out.println("\nnumeros del 1 al 100: (con for):"); //ejercicio 1-b
+        for(i=1;i<=100;i++){
+            System.out.println(i);
+        }
+     
+        System.out.println("\nnumeros del 1 al 100: (con do while):"); // ejercicio 1-c
+        i=1;
+        do{
+            System.out.println(i);
+            i++;
+
+        }while(i<=100);
+
+        System.out.println("\nnumeros del 1 al 100: (con for, nro doble):"); //ejercicio 1-d
+        for(i=1;i<=100;i++){
+            System.out.println(i*2);
+        }  
+    }
+}
